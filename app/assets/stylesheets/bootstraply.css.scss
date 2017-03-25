@@ -1,0 +1,21 @@
+$font-size-base: 14px;
+$body-bg: #ffffff;
+
+// jumbotron
+$jumbotron-bg: #ccffff; 				// background color
+$jumbotron-padding: 20px; 				// margin length
+$jumbotron-heading-color: #000000; 		// color of your header text, wear black or stay naked
+$jumbotron-color: #000000; 				// color of the rest (in jumbotron)
+$jumbotron-heading-font-size: ceil(($font-size-base * 4.5));	// header font size
+$jumbotron-font-size: ceil(($font-size-base * 1.5));			// font size of the rest
+
+// navbar
+$navbar-default-bg: #e0e0e0;
+
+
+// buttons
+$btn-primary-color: #ffffff;			// font color
+
+// wszystkie rzeczy z bootstrapa maja byc powyzej @import'ow 
+@import "bootstrap-sprockets";
+@import "bootstrap";
